@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(187, 186, 182);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(115, 136, 136);
+    margin:0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width:140px;
+    height: 110px;
+    border:3px solid white;
+    border-radius:50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(240, 247, 240);
+}
+.header-contact p a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+
+/* personal Section */
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+.para1{
+    text-align: justify;
+}
+.left-edu{
+    float: left;
+    padding-right: 40px;
+}
+.right-edu{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+
+#foter{
+    background-color: black;
+}
+.center{
+    text-align:center;
+}
+.fot{
+    padding-left: 20px;
+}
+.don{
+    padding-bottom: 10px;
+}
